@@ -1,7 +1,7 @@
 /**
  *  Alarm.com Service Manager
  *
- *  Author: Schwark Satyavolu
+ *  Author: Nav Dhunay
  *
  */
 
