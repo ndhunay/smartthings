@@ -480,7 +480,7 @@ def createSwitches() {
 		def hubId = getHubId()
 		def device = getChildDevice("${PREFIX}${id}")
 		if(map.button && !device) {
-			def alarmSwitch = addChildDevice("schwark", "Alarm.com Switch", "${PREFIX}${id}", hubId, ["name": "AlarmCom.${id}", "label": "${name}", "completedSetup": true])
+			def alarmSwitch = addChildDevice("ndhunay", "Alarm.com Switch", "${PREFIX}${id}", hubId, ["name": "AlarmCom.${id}", "label": "${name}", "completedSetup": true])
 			log.debug("created child device ${PREFIX}${id} with name ${name} and hub ${hubId}")
 			alarmSwitch.setCommand(id)
 			device = alarmSwitch
