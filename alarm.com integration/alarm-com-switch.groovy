@@ -1,6 +1,6 @@
 /**
  *  Alarm.com Switch for SmartThings
- *  Schwark Satyavolu
+ *  Nav Dhunay
  *  Originally based on: Allan Klein's (@allanak) and Mike Maxwell's code
  *
  *  Usage:
@@ -17,7 +17,7 @@
  */
 
 metadata {
-	definition (name: "Alarm.com Switch", namespace: "schwark", author: "Schwark Satyavolu") {
+	definition (name: "Alarm.com Switch", namespace: "ndhunay", author: "Nav Dhunay") {
 	capability "Switch"
 	capability "Momentary"
 	capability "Actuator"
